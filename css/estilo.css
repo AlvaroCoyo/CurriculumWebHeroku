@@ -1,0 +1,177 @@
+*{
+	font-family: times;
+
+}
+@keyframes entrada{
+	0%{ margin-top: 0;}
+	20%{ margin-top: 0;}
+
+	25%{ margin-top: -30px;}
+	50%{ margin-top: -30px;}
+
+	55%{ margin-top: -60px;}
+	80%{ margin-top: -60px;}
+
+	85%{ margin-top: -30px;}
+	95%{ margin-top: -30px;}
+
+	100%{ margin-top: 0;}
+}
+
+@keyframes opacar{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+.curriculum{
+	background-color: #34495E ;
+	padding: 1rem;
+	width: 70%;
+	height: 70%;
+	margin: auto;
+	position: absolute;
+	top: 10%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: 1s;
+	border-radius: 15px;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.foto{
+	transition: 3s;
+	width: 25%;
+	height: 50%;
+	padding-top: 4%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 40%
+	animation: opacar 5s;
+}
+.foto img{
+	width: 275px;
+	height: 325px;
+	border-radius: 40%;
+	transition:1s;
+}
+img:hover{
+	transform:scale(1.2);
+}
+.datos{
+	width: 51%;
+	height: 87%;
+	margin: auto;
+	padding: 1rem;
+	position: absolute;
+	right: 5%;
+	top: 3%;
+	background-color: #D9D9D9;
+	animation: opacar 2s;
+}
+
+.cabecita{
+	position: fixed;
+	width: 70%;
+	height: 10%; 
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	font-size: 40px;
+	border-bottom: 3px solid black;
+
+}
+
+.name{
+	display: flex;
+	height: 30px;
+	width: 95%;
+	position: absolute;
+	padding-left: 10%
+	top: 0;
+	left: 10%;
+	line-height: 30px;
+	overflow: hidden;
+	animation: opacar 5s;
+	color:black;
+	font-size: 30px;
+}
+.cabecita .name{
+	left:0;
+}
+
+.name ul {
+	color: solid #B3B6B7;
+	list-style: none;
+	padding-left: 0;
+	animation: entrada 5s infinite;
+}
+ .datos{
+ 	overflow: auto;
+ 	-webkit-box-shadow: 86px 55px 43px -24px rgba(0,0,0,0.93);
+	-moz-box-shadow: 86px 55px 43px -24px rgba(0,0,0,0.93);
+	box-shadow: 86px 55px 43px -24px rgba(0,0,0,0.93);
+	transition: 2s;
+	border-radius: 30px;
+
+}
+
+.line{
+	background-color: gray;
+	height: 100%;
+	width: 30%;
+	margin-top: 0;
+	padding: 0;
+	top: 0;
+	bottom: 0;
+	-webkit-box-shadow: 86px 55px 43px -24px rgba(0,0,0,0.93);
+	-moz-box-shadow: 86px 55px 43px -24px rgba(0,0,0,0.93);
+	box-shadow: 86px 55px 43px -24px rgba(0,0,0,0.93);
+	transition: 1s;
+	border-radius: 30px;
+}
+.all{
+	color: black;
+	margin-top: 20%;
+	line-height: 20px;
+	font-size: 50%;
+}
+.datos:hover{
+	transform:scale(1.2);
+}
+
+.contacto ul, p{
+	margin: 0;
+}
+
+.contacto img{
+	height: 50px;
+ 	width: 50px;
+ 	transition:1s;
+}
+.contacto ul li{
+	
+	line-height: 30px;
+	list-style: none;
+	font-family: times;
+	font-size: 30px;
+}
+
+.line:hover{
+	transform: scale(1.09);
+}
+
+header{
+	background-color: white;
+	color: black;
+	font-family: times;
+	transition:3s;
+}
+
